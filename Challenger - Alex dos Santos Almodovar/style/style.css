@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.cabecalho {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.principal {
+    padding: 2% 5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.principal__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+}
+
+.principal__conteudo__entrada__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal__conteudo__div {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+  label {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  input {
+    height:5rem;
+    width: 1040px;
+    padding: 5%;
+    font-size: 16px;
+    margin: 5px auto;
+    max-width: 600px;
+  }
+
+  textarea {
+    margin: 5px auto;
+    font-size: 18px;
+    width: 97%;
+    max-width: 600px 300px;
+  }
+
+.botao {
+    width: 176px;
+    height: 48px;
+    padding: 2%;
+    background-color: black;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 19.2px;
+    cursor: pointer;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    color: yellow;
+}
+
+.botao:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+.rodape {
+    color: black;
+    background-color: yellow;
+    padding: 18px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+    font-weight: 100;
+}
+

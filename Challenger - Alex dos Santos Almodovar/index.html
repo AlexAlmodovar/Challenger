@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Challenger - Alex Almodovar</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Texto Secreto</h1>
+    </header>
+    <main class="principal">
+        <section class="principal__conteudo">
+            <div class="principal__conteudo__entrada__div">
+                <label for="mensagem">Digite a mensagem:</label>
+                <input type="text" id="mensagem" placeholder="Digite uma mensagem." />
+                <label for="mensagem">Chave:</label>
+                <input type="text" id="paresPrimos" placeholder="(Array com pares de primos)" />
+                <label for="mensagem">Resultado:</label>
+                <textarea placeholder="..." id="resultado"></textarea>
+            </div>
+            <div class="principal__conteudo__div">
+                <button class="botao" onclick="criptografar()">Criptografar</button>
+                <button class="botao" onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </section>
+        <img src="./assets/homer.png" alt="Homer Simpson pensando.">
+    </main>
+    <section class="principal__conteudo2">
+        <script src="./js/scripts.js" type="text/javascript"></script>
+        <footer class="rodape">
+            <p>Dev: Alex dos Santos Almodovar<br>
+                e-mail: alex_almodovar@hotmail.com<br>
+                Github: https://github.com/AlexAlmodovar</p>
+        </footer>
+</body>
+
+</html>
